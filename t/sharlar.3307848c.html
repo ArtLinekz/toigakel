@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="kk"><head><meta charset="utf-8"><title>Той шақыруы — Шарлар</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+<style>:root{--bg:#fff1e8;--pp:#fffdfb;--ink:#3b2a4a;--ac:#e0567a;--mu:#7e6d84;--a1:#ffc94d;--a2:#7cc8f0;--obg:linear-gradient(#ffe7ef,#fff6e0);--oink:#3b2a4a;--fd:'Comfortaa',sans-serif;--fb:'Nunito',sans-serif;color-scheme:light}*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--fb);-webkit-font-smoothing:antialiased}
+body.lk{overflow:hidden;height:100vh}
+#inv{max-width:480px;margin:auto;background:var(--pp);position:relative;overflow:hidden;min-height:100vh}
+#inv section{padding:60px 28px;text-align:center;position:relative}
+.k{font:500 12px var(--fb);letter-spacing:.32em;text-transform:uppercase;color:var(--ac)}
+.cv::before{content:"";position:absolute;inset:16px;border:1px solid color-mix(in srgb,var(--ac) 40%,transparent);border-radius:14px;pointer-events:none}
+.cv::after{content:"";position:absolute;inset:22px;border:1px solid color-mix(in srgb,var(--ac) 18%,transparent);border-radius:10px;pointer-events:none}
+.cv{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:18px;padding:80px 24px!important}
+.nm{font:400 clamp(46px,13vw,68px)/1.05 var(--fd);color:var(--ink);margin:0;overflow-wrap:anywhere}
+.nm i{display:block;font-style:italic;font-size:.5em;color:var(--ac);margin:6px 0}
+.age{font:400 clamp(90px,30vw,150px)/1 var(--fd);color:var(--ac)}
+.age small{display:block;font:500 13px var(--fb);letter-spacing:.3em;text-transform:uppercase;color:var(--mu);margin-top:6px}
+.dt{font:500 15px var(--fb);letter-spacing:.24em;color:var(--mu)}
+.sc{font:500 11px var(--fb);letter-spacing:.3em;text-transform:uppercase;color:var(--mu);margin-top:30px;animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(6px)}}
+h2{font:400 34px/1.15 var(--fd);margin:0 0 16px;color:var(--ink)}
+p{margin:0 0 14px}
+.mu{color:var(--mu)}
+.orn{display:block;margin:0 auto 22px;color:var(--ac)}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;max-width:300px;margin:18px auto 8px;font:500 14px var(--fb)}
+.cal b{font-size:11px;letter-spacing:.1em;color:var(--mu);font-weight:500}
+.cal span{aspect-ratio:1;display:grid;place-items:center;border-radius:50%}
+.cal .on{background:var(--ac);color:var(--pp);font-weight:700;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px color-mix(in srgb,var(--ac) 22%,transparent)}}
+.tm{font:400 26px var(--fd);margin-top:10px}
+.cd{display:flex;justify-content:center;gap:10px;margin-top:8px}
+.cd div{min-width:64px;padding:12px 6px;border:1px solid color-mix(in srgb,var(--ac) 45%,transparent);border-radius:12px}
+.cd b{display:block;font:400 30px/1 var(--fd);color:var(--ink)}
+.cd small{font:500 10px var(--fb);letter-spacing:.2em;text-transform:uppercase;color:var(--mu)}
+.vn{font:400 26px/1.2 var(--fd);margin:6px 0}
+.bt{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:99px;background:var(--ac);color:var(--pp);text-decoration:none;font:600 13px var(--fb);letter-spacing:.14em;text-transform:uppercase;border:0;cursor:pointer;margin-top:12px}
+.bt.o{background:transparent;color:var(--ac);border:1px solid var(--ac)}
+.pg{list-style:none;padding:0;margin:0 auto;max-width:340px;text-align:left}
+.pg li{display:flex;gap:16px;padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 12%,transparent)}
+.pg li b{font:400 22px/1.2 var(--fd);color:var(--ac);min-width:64px}
+.dcs{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:10px}
+.dcs span{width:46px;height:46px;border-radius:50%;box-shadow:0 0 0 3px var(--pp),0 0 0 4px color-mix(in srgb,var(--ink) 25%,transparent)}
+.ph1{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:18px;display:block}
+form{max-width:340px;margin:0 auto;text-align:left}
+form label.l{display:block;font:500 11px var(--fb);letter-spacing:.2em;text-transform:uppercase;color:var(--mu);margin:16px 0 6px}
+form input[type=text],form input[type=number]{width:100%;min-height:48px;padding:10px 14px;border:1px solid color-mix(in srgb,var(--ink) 25%,transparent);border-radius:12px;background:transparent;color:var(--ink);font:400 16px var(--fb)}
+.ch{display:grid;gap:8px}
+.ch label{display:flex;align-items:center;gap:10px;min-height:46px;padding:0 14px;border:1px solid color-mix(in srgb,var(--ink) 20%,transparent);border-radius:12px;cursor:pointer;font-size:15px}
+.ch input{accent-color:var(--ac);width:18px;height:18px}
+form .bt{width:100%}
+.ok{padding:18px;border-radius:14px;background:color-mix(in srgb,var(--ac) 14%,transparent)}
+.ft{padding:40px 24px 70px!important}
+.ft small{display:block;margin-top:24px;font-size:11px;letter-spacing:.2em;color:var(--mu)}
+.rv{opacity:0;transform:translateY(28px);transition:opacity 1s,transform 1s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+#op{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;cursor:pointer;overflow:hidden;background:var(--obg)}
+#op .tx{position:relative;z-index:5;text-align:center;color:var(--oink);padding:24px;pointer-events:none}
+#op .tx .nm{color:var(--oink)}
+#op .hint{position:absolute;left:0;right:0;bottom:calc(36px + env(safe-area-inset-bottom,0px));z-index:6;text-align:center;font:500 11px var(--fb);letter-spacing:.3em;text-transform:uppercase;color:var(--oink);opacity:.85;animation:bob 2s ease-in-out infinite;pointer-events:none}
+#op.go{pointer-events:none}
+#op.go .hint{opacity:0}
+#op.gone{display:none}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;width:50px;height:50px;border-radius:50%;border:0;background:var(--ac);color:var(--pp);font-size:18px;cursor:pointer;box-shadow:0 8px 24px -6px #0006}
+.amb{position:fixed;inset:0;pointer-events:none;z-index:30;overflow:hidden}
+.amb i{position:absolute;top:-20px;display:block}
+.am-petals i{width:12px;height:16px;border-radius:12px 0 12px 0;background:var(--a1);opacity:.75;animation:fall linear infinite}
+.am-confetti i{width:7px;height:12px;background:var(--a1);animation:fall linear infinite}
+.am-confetti i:nth-child(3n){background:var(--a2)}.am-confetti i:nth-child(3n+1){background:var(--ac)}
+.am-sparkles i{top:auto;bottom:-10px;width:4px;height:4px;border-radius:50%;background:var(--a1);box-shadow:0 0 8px 2px var(--a1);animation:rise linear infinite}
+.am-stars i{width:3px;height:3px;border-radius:50%;background:var(--a1);box-shadow:0 0 6px var(--a1);animation:tw 3s ease-in-out infinite}
+@keyframes fall{to{transform:translate3d(60px,110vh,0) rotate(540deg)}}
+@keyframes rise{to{transform:translate3d(-30px,-110vh,0);opacity:0}}
+@keyframes tw{50%{opacity:.15}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:.01ms!important}.rv{opacity:1;transform:none}.amb{display:none}}
+.bl span{position:absolute;bottom:-160px;width:calc(70px*var(--s));height:calc(88px*var(--s));border-radius:50% 50% 48% 48%;animation:fl 4s ease-in-out infinite alternate,in 1.6s cubic-bezier(.2,.8,.3,1) forwards}
+.bl span::after{content:"";position:absolute;left:50%;top:100%;width:1px;height:90px;background:#3b2a4a55}
+@keyframes in{to{bottom:12%}}@keyframes fl{to{translate:0 -24px}}
+#op .tx{margin-top:-26vh}
+#op.go .bl span{bottom:120vh!important;transition:bottom 1.4s cubic-bezier(.6,0,.4,1)}
+#op.go .tx{opacity:0;transition:.5s}#op.go{opacity:0;transition:opacity .8s .8s}</style></head><body class="lk"><div id="op" role="button" tabindex="0" aria-label="Шақыруды ашу"><div class="bl"><span style="left:10%;background:#e0567a;animation-delay:0s;--s:1"></span><span style="left:26%;background:#ffc94d;animation-delay:0.4s;--s:0.8"></span><span style="left:44%;background:#7cc8f0;animation-delay:0.2s;--s:1.1"></span><span style="left:62%;background:#9be27a;animation-delay:0.6s;--s:0.9"></span><span style="left:78%;background:#c48cf2;animation-delay:0.1s;--s:1"></span><span style="left:88%;background:#ffa36b;animation-delay:0.5s;--s:0.85"></span></div><div class="tx" id="optx"></div><div class="hint">Ашу үшін басыңыз</div></div><main id="inv"></main><script>const TH={"mode": "age", "amb": "confetti", "dur": 1500, "D": {"date": "2026-12-19", "time": "17:00", "venue": "«Алтын орда» мейрамханасы", "addr": "Алматы қаласы, Абай даңғылы, 100", "map": "", "wa": "", "photo": "", "prog": "15:00 — Қонақтарды қарсы алу\n15:30 — Ойындар мен аниматор\n17:00 — Торт", "dc": [], "hosts": "Ата-анасы", "music": "2", "name": "Айлин", "age": "7", "unit": "жас", "kind": "Туған күнге шақыру", "env": "Мерекеге шақыру", "greet": "Достар!", "msg": "Сені менің туған күніме арналған көңілді кешке шақырамын. Ойын, торт және көп күлкі болады!"}, "dph": 0};TH.onLoad=function(){};
+window.CFG=window.CFG||{};
+const MO=['қаңтар','ақпан','наурыз','сәуір','мамыр','маусым','шілде','тамыз','қыркүйек','қазан','қараша','желтоқсан'],WD=['Дс','Сс','Ср','Бс','Жм','Сб','Жс'];
+let D=Object.assign(JSON.parse(JSON.stringify(TH.D)),CFG.D||{}),opened=!!CFG.noenv&&!CFG.cover,pl=-1,pp=false;
+const $=i=>document.getElementById(i),esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),pd=n=>String(n).padStart(2,'0');
+const safeU=u=>/^https:\/\//i.test(String(u||'').trim())?String(u).trim():'';
+const mi=()=>/^\d{1,6}$/.test(D.music)?+D.music:-1;
+const red=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const ORN=`<svg class="orn" width="120" height="22" viewBox="0 0 120 22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 11h40M78 11h40"/><path d="M60 3c-6 0-9 4-9 8s3 8 9 8 9-4 9-8-3-8-9-8z"/><path d="M51 11c-3-4-7-5-9-3M69 11c3-4 7-5 9-3M51 11c-3 4-7 5-9 3M69 11c3 4 7 5 9 3"/><circle cx="60" cy="11" r="2" fill="currentColor"/></svg>`;
+function names(){return TH.mode==='pair'?`<h1 class="nm">${esc(D.groom)}<i>&amp;</i>${esc(D.bride)}</h1>`:`<h1 class="nm">${esc(D.name)}</h1>`}
+function dparts(){const p=String(D.date||'').split('-').map(Number);return p.length===3&&p[0]?p:null}
+function dline(){const p=dparts();return p?`${pd(p[2])} · ${pd(p[1])} · ${p[0]}`:''}
+function cal(){const p=dparts();if(!p)return'';const[y,m,d]=p,f=(new Date(y,m-1,1).getDay()+6)%7,n=new Date(y,m,0).getDate();let h=WD.map(w=>`<b>${w}</b>`).join('');for(let i=0;i<f;i++)h+='<span></span>';for(let i=1;i<=n;i++)h+=`<span class="${i===d?'on':''}">${i}</span>`;return `<div class="cal" aria-hidden="true">${h}</div>`}
+function inv(){const p=dparts(),map=safeU(D.map),prog=String(D.prog||'').split('\n').map(s=>s.trim()).filter(Boolean),dc=Array.isArray(D.dc)?D.dc.filter(c=>/^#[0-9a-f]{3,8}$/i.test(c)):[];
+let h=`<section class="cv">${ORN}<div class="k">${esc(D.kind)}</div>${TH.mode==='age'&&D.age?`<div class="age">${esc(D.age)}<small>${esc(D.unit||'')}</small></div>`:''}${names()}<div class="dt">${dline()}</div><div class="sc">↓</div></section>`;
+h+=`<section class="rv s-greet">${ORN}<h2>${esc(D.greet||'Құрметті қонақтар!')}</h2><p>${esc(D.msg)}</p></section>`;
+if(D.photo)h+=`<section class="rv s-photo" style="padding-top:0"><img class="ph1" src="${esc(D.photo)}" alt=""></section>`;else if(TH.dph)h+=`<section class="rv s-photo" style="padding-top:0"><div class="ph1 dph" aria-hidden="true"></div></section>`;
+if(p)h+=`<section class="rv s-date"><div class="k">Той салтанаты</div><h2 style="margin-top:10px">${p[2]} ${MO[p[1]-1]} ${p[0]} ж.</h2>${cal()}<div class="tm">Сағат ${esc(D.time)}</div></section><section class="rv s-cd"><div class="k">Тойға дейін</div><div class="cd" id="cd"><div><b>0</b><small>күн</small></div><div><b>0</b><small>сағат</small></div><div><b>0</b><small>минут</small></div><div><b>0</b><small>секунд</small></div></div></section>`;
+h+=`<section class="rv s-venue">${ORN}<div class="k">Мекенжайымыз</div><div class="vn">${esc(D.venue)}</div><p class="mu">${esc(D.addr)}</p>${map?`<a class="bt" href="${esc(map)}" target="_blank" rel="noopener">Картадан ашу</a>`:''}</section>`;
+if(prog.length)h+=`<section class="rv s-prog"><div class="k">Той бағдарламасы</div><ul class="pg" style="margin-top:16px">${prog.map(l=>{const m=l.match(/^(\d{1,2}[:.]\d{2})\s*[—–-]?\s*(.*)$/);return m?`<li><b>${esc(m[1])}</b><span>${esc(m[2])}</span></li>`:`<li><span>${esc(l)}</span></li>`}).join('')}</ul></section>`;
+if(dc.length)h+=`<section class="rv s-dc"><div class="k">Дресс-код</div><p class="mu" style="margin-top:10px">Осы түстердегі киім тойдың көркін аша түседі</p><div class="dcs">${dc.map(c=>`<span style="background:${c}"></span>`).join('')}</div></section>`;
+if(D.hosts)h+=`<section class="rv s-hosts"><div class="k">Той иелері</div><div class="vn" style="margin-top:8px">${esc(D.hosts)}</div></section>`;
+if(!(CFG.sa&&!CFG.wa))h+=`<section class="rv s-rsvp" id="rsvp">${ORN}<h2>Келетініңізді растаңыз</h2><div id="rf"><form onsubmit="return rs(this)"><label class="l" for="rn">Аты-жөніңіз</label><input id="rn" name="n" type="text" required autocomplete="name"><span class="l" style="display:block;font:500 11px var(--fb);letter-spacing:.2em;text-transform:uppercase;color:var(--mu);margin:16px 0 6px">Қатысуыңыз</span><div class="ch">${['Әрине келемін','Жұбайыммен келемін','Отбасыммен келемін','Келе алмаймын'].map((a,i)=>`<label><input type="radio" name="a" value="${a}" ${i?'':'checked'}>${a}</label>`).join('')}</div><label class="l" for="rc">Неше адам келеді?</label><input id="rc" name="c" type="number" min="1" max="20" value="1" inputmode="numeric"><button class="bt" type="submit">Жауап беру</button></form></div></section>`;
+h+=`<section class="ft rv"><h2>${esc(D.bye||'Келіңіздер, қуанышымызға ортақ болыңыздар!')}</h2><small>toigakel.kz</small></section>`;return h}
+function rs(f){const n=f.n.value.trim();if(!n)return false;const a=(f.querySelector('input[name=a]:checked')||{}).value||'Әрине келемін',c=a==='Келе алмаймын'?'0':String(Math.max(1,Math.min(20,parseInt(f.c.value)||1)));sendR({n,a,t:c});$('rf').innerHTML=`<div class="ok">Рақмет, ${esc(n)}! Жауабыңыз қабылданды ✓</div>`;return false}
+function sendR(x){if(CFG.sa&&CFG.rid){parent.postMessage({toi:'rsvp',rid:CFG.rid,r:x},'*');return}if(CFG.sa){if(CFG.wa)(function(u){var a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener';document.body.appendChild(a);a.click();setTimeout(function(){a.remove()},500)})('https://wa.me/'+CFG.wa+'?text='+encodeURIComponent((CFG.title?CFG.title+'\n':'')+x.n+' — '+x.a+(x.t&&x.t!=='0'?' ('+x.t+' адам)':'')))}else parent.postMessage({toi:'rsvp',id:CFG.id,r:x},'*')}
+function tick(){const e=$('cd'),p=dparts();if(!e||!p)return;const[hh,mm]=String(D.time||'00:00').split(':').map(Number);let s=Math.max(0,Math.floor((new Date(p[0],p[1]-1,p[2],hh||0,mm||0)-new Date())/1000));const v=[Math.floor(s/86400),Math.floor(s%86400/3600),Math.floor(s%3600/60),s%60];e.querySelectorAll('b').forEach((b,i)=>b.textContent=i?pd(v[i]):v[i])}
+let IO=null;function obs(){if(CFG.cover||!('IntersectionObserver' in window)){document.querySelectorAll('.rv').forEach(e=>e.classList.add('in'));return}IO=IO||new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');IO.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.rv:not(.in)').forEach(e=>IO.observe(e))}
+function draw(keep){$('inv').innerHTML=inv();if(keep)document.querySelectorAll('.rv').forEach(e=>e.classList.add('in'));obs();tick();ui();if(!opened)opTx()}
+function opTx(){const t=$('optx');if(t)t.innerHTML=`<div class="k" style="color:inherit;opacity:.85">${esc(D.env||D.kind)}</div>${TH.mode==='pair'?`<div class="nm" style="font-size:clamp(38px,11vw,56px)">${esc(D.groom)}<i>&amp;</i>${esc(D.bride)}</div>`:`<div class="nm" style="font-size:clamp(38px,11vw,56px)">${esc(D.name)}</div>`}`}
+function amb(){if(red||CFG.cover||!TH.amb||TH.amb==='none')return;const a=document.createElement('div');a.className='amb am-'+TH.amb;a.setAttribute('aria-hidden','true');const n=TH.amb==='stars'?40:18;for(let i=0;i<n;i++){const s=document.createElement('i');s.style.left=Math.random()*100+'%';if(TH.amb==='stars'){s.style.top=Math.random()*100+'%';s.style.animationDelay=(Math.random()*3)+'s'}else{s.style.animationDuration=(7+Math.random()*8)+'s';s.style.animationDelay=(-Math.random()*12)+'s';s.style.opacity=.4+Math.random()*.5}a.appendChild(s)}document.body.appendChild(a)}
+function openOp(){if(opened)return;opened=true;const o=$('op');o.classList.add('go');if(TH.onOpen)try{TH.onOpen()}catch(e){}setTimeout(()=>{o.classList.add('gone');document.body.classList.remove('lk');amb()},red?50:(TH.dur||1600));if(mi()>=0)play()}
+function ui(){const b=$('mb');if(!b)return;b.style.display=(mi()<0||(CFG.sa&&!CFG.audio))?'none':'';b.textContent=pp&&(CFG.sa||pl===mi())?'❚❚':'♪'}
+function play(){if(CFG.sa){if(!CFG.audio)return;if(!window._au){window._au=new Audio(CFG.audio);_au.loop=true;_au.onplay=()=>{pp=true;ui()};_au.onpause=()=>{pp=false;ui()}}if(_au.paused)_au.play().catch(()=>0);else _au.pause();return}if(mi()>=0)parent.postMessage({toi:'play',i:mi()},'*')}
+window.addEventListener('message',e=>{const m=e.data;if(!m||!m.toi)return;if(m.toi==='set'){D=Object.assign(D,m.D);draw(1)}if(m.toi==='state'){pl=m.pl;pp=m.pp;ui()}});
+document.body.insertAdjacentHTML('beforeend','<button class="fab" id="mb" aria-label="Музыка" onclick="play()">♪</button>');
+draw(0);
+if(opened){$('op').classList.add('gone');document.body.classList.remove('lk');if(!CFG.cover)amb()}else{$('op').addEventListener('click',openOp);$('op').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openOp()}});if(TH.onLoad)try{TH.onLoad()}catch(e){}}
+setInterval(tick,1000);
+<\/script></body></html>

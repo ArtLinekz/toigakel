@@ -21,3 +21,12 @@ services:
       - path: /index.html
         name: Cache-Control
         value: public, max-age=0, must-revalidate
+      - path: /t/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /a/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /i/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
