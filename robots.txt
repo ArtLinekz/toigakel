@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://toigakel.kz/sitemap.xml
