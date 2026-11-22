@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://toigakel.kz/sitemap.xml
+Sitemap: https://toigakel.onrender.com/sitemap.xml
